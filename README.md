@@ -2,7 +2,7 @@
 Для работы приложения необходимы БД MySql и менеджер пакетов composer.
 
 1. Создайте локальную бд MySql с таблицой, имееющей следующую структуру:
-  id INT AUTO_INCREMENT,
+  id INT AUTO_INCREMENT PRIMARY KEY,
   origin_address TEXT,
   shrot_address TEXT
 2. Впишите адрес хоста, название бд, имя пользователя и пароль в соответствующие поля класса Database (/Configs/Database.php).
